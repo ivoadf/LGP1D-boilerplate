@@ -1,0 +1,26 @@
+{
+  "name": "LGP-1D-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimal Electron and react boilerplate",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack -d --watch"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "electron": "^1.4.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router-dom": "^4.0.0",
+    "redux": "^3.6.0"
+  }
+}
