@@ -11,7 +11,10 @@ import HelloWorld from './components/containers/hello.container';
 export default (
   <Router>
     <div>
-    <Route path="/" component={HelloWorld}/>
-    </div>
+      <ul>
+        <li><Link to="/hello">Hello</Link></li>
+      </ul>
+    <Route path="/hello" component={HelloWorld}/>
+  </div>
   </Router>
 );
