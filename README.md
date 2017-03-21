@@ -10,8 +10,9 @@ https://webpack.js.org/configuration/
 https://scotch.io/tutorials/routing-react-apps-the-complete-guide
 ### Redux
 http://redux.js.org/docs/basics/UsageWithReact.html
-### Webapack
-https://webpack.js.org/concepts/
+
+### Jest
+https://facebook.github.io/jest/docs/tutorial-react.html#content
 
 ### Tutorial about react-router + react + redux
 https://css-tricks.com/learning-react-router/
