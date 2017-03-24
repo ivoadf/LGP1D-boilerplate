@@ -7,6 +7,11 @@ const BrowserWindow = electron.BrowserWindow
 const path = require('path')
 const url = require('url')
 
+//hot reload
+require('electron-reload')(path.join(__dirname, 'bundle.js'),{
+   electron: path.join(__dirname, 'node_modules', '.bin', 'electron')
+});
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow

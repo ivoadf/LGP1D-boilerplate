@@ -22,6 +22,7 @@
     "electron": "^1.4.1",
     "electron-installer-windows": "^0.2.0",
     "electron-mocha": "^3.4.0",
+    "electron-reload": "^1.1.0",
     "jest": "^19.0.2",
     "react-test-renderer": "^15.4.2",
     "spectron": "^3.6.0",
